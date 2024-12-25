@@ -1,7 +1,11 @@
-yas = int(input("Adayın yaşını girin:"))
-final_notu = int(input("Adayın final notunu girin:"))
-if 20 <= yas <= 50 or final_notu >= 80:
-    print("ise al")
+hesap_bakiyesi = float(input("Başlangıç bakiyesini girin: "))
+islem = input("İşlem türünü girin (Para Yatırma / Para Çekme): ")
+tutar = float(input("İşlem tutarını girin: "))
+if islem == "Para Yatırma":
+  hesap_bakiyesi += tutar
+if islem == "Para Çekme":
+  hesap_bakiyesi -= tutar
 else:
-    print("reddet")
-      
+ print("Geçersiz İşlem")
+ 
+  
