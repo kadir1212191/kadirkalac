@@ -1,7 +1,7 @@
-sinav_1 = float(input("Birinci sınavın notunu girin: "))
-sinav_2 = float(input("İkinci sınavın notunu girin: "))
-istenen_ortalama = float(input("İstediğiniz ortalamayı girin: "))
-
-sinav_3 = 3 * istenen_ortalama - sinav_1 - sinav_2
-
-print("Üçüncü sınavda " ,sinav_3," almanız gerekiyor, böylece" ,istenen_ortalama, "ortalamayı elde edersiniz.")
+yas = int(input("Adayın yaşını girin:"))
+final_notu = int(input("Adayın final notunu girin:"))
+if 20 <= yas <= 50 or final_notu >= 80:
+    print("ise al")
+else:
+    print("reddet")
+      
