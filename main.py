@@ -1,7 +1,6 @@
-x = ("Bir sözcük giriniz :")
-y= int(input("Bir sayı girin :"))
-if y<len(x):
-  x1 = x[:y]
-  x2 = x[y:]
-  x=x1+"-"+x2
-  print(x)
+kelime = input("Bir sözcük girin: ")
+endeks = int(input("Bir sayı girin: ")) -1
+harf = input("Bir harf girin: ")
+
+sonuc = kelime[:endeks] + harf + kelime[endeks+1:]
+print(sonuc)
