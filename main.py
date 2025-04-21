@@ -1,5 +1,4 @@
-ad = input("Adınızı girin: ")
-soyad = input("Soyadınızı girin: ")
+kelime = input("Bir sözcük girin: ")
 
-sonuc = ad[0] + "." + soyad[0]
-print("Çıktı:", sonuc)
+sonuc = kelime[0] + kelime[-1]
+print(sonuc)
