@@ -1,7 +1,9 @@
-metin = input("Bir metin girin: ")
-harf = input("Silmek istediğiniz harfleri girin: ")
+kelime = input("Bir sözcük girin: ")
+sesliler = "aeıioöuü"
+sayac = 0
 
-for karakter in harf:
-  metin= metin.replace(karakter, "")
-  
-print(metin)
+for harf in kelime:
+  if harf in sesliler:
+    sayac +=1
+    
+print(sayac)
