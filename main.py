@@ -1,5 +1,7 @@
-kelime = input("Bir sözcük girin: ")
-harf = input("Bir harf girin: ")
+metin = input("Bir metin girin: ")
+harf = input("Silmek istediğiniz harfleri girin: ")
 
-adet = kelime.count(harf)
-print(adet)
+for karakter in harf:
+  metin= metin.replace(karakter, "")
+  
+print(metin)
