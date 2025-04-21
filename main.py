@@ -1,5 +1,5 @@
-kelime = input("Bir kelime girin: ")
+kelime = input("Bir sözcük girin: ")
+harf = input("Bir harf girin: ")
 
-for harf in kelime:
-  print(harf + "!")
-  
+adet = kelime.count(harf)
+print(adet)
