@@ -1,6 +1,5 @@
-kelime = input("Bir sözcük girin: ")
-endeks = int(input("Bir sayı girin: ")) -1
-harf = input("Bir harf girin: ")
+kelime = input("Bir kelime girin: ")
 
-sonuc = kelime[:endeks] + harf + kelime[endeks+1:]
-print(sonuc)
+for harf in kelime:
+  print(harf + "!")
+  
